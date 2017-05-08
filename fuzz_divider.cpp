@@ -3,15 +3,6 @@
 #include <cassert>
 
 int divide(int x, int y) {
-  if (x > 10 || x < -10)
-    return -1;
-  if (y > 10 || y < -10)
-    return -1;
-  if (y == 0)
-    return -1;
-
-  assert(x!=3);
-  
   return x / y; 
 }
 
